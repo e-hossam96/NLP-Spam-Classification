@@ -1,0 +1,1 @@
+{"vocab_size": 10000, "oov_tok": "<OOV>", "max_length": 200, "padding_type": "pre", "trunc_type": "post", "embedding_dim": 20}

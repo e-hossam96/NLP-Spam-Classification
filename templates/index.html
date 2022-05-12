@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spam Classification</title>
+
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <div class="form-container">
+    <div class="up">
+      <h1>Spam Classification Using TensorFlow and NLTK</h1>
+
+      <p>
+        This is a multi-layer classifier that uses both <strong>NLTK</strong> and <strong>TensorFlow</strong>
+        processes to predict the type of your email. Just upload your email as a text file here and
+        hit the <strong>Send File</strong> button.
+      </p>
+
+      <form class="form" method="post" action="{{url_for('predict_spam')}}">
+        <div>
+          <label for="text-file">upload file</label>
+          <input type="file" name="text" id="text-file" required accept=".txt" />
+        </div>
+
+        <button>send file</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

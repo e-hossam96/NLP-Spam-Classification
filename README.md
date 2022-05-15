@@ -3,7 +3,7 @@ NLP Pipeline for Spam Emails Classification
 ## Introduction
 Spam emails classification accounts for a a great deal of tasks in internet security. This raises the need for a perfect classifier to protect agents from malware attacks.<br>In this project we will be processing the email raw text and get insights about the key words that most spam emails share. For the sake of maximum security, we will use two frameworks to solve the problem, `TensorFlow` and `NLTK`, and use an `or` gate to combine the results.
 ## Repository Content
-01. [Dataset](https://github.com/E-Hossam96/NLP-Spam-Classification/tree/main/dataset): Spam classification raw texts. This dataset is available on Kaggle through this [link](https://www.kaggle.com/datasets/chandramoulinaidu/spam-classification-for-basic-nlp)
+01. [Dataset](https://github.com/E-Hossam96/NLP-Spam-Classification/tree/main/dataset): Spam classification raw texts. This dataset is available on Kaggle through this [link](https://www.kaggle.com/datasets/chandramoulinaidu/spam-classification-for-basic-nlp).
 02. [Examples](https://github.com/E-Hossam96/NLP-Spam-Classification/tree/main/examples): Just a couple of samples from my Gmail aacount to test the algorithms.
 03. [Static](https://github.com/E-Hossam96/NLP-Spam-Classification/tree/main/static): Styles of the webpages and sample photos for visualization.
 04. [Templates](https://github.com/E-Hossam96/NLP-Spam-Classification/tree/main/templates): **HTML** webpages to be used by Flask.

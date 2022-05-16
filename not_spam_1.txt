@@ -1,0 +1,53 @@
+From:	Quincy Larson <quincy@freecodecamp.org>
+Sent:	Friday, May 6, 2022 6:21 AM
+To:	ehh.hossam@gmail.com
+Subject:	The Python Code Handbook [free book with 40 code examples]
+
+Here are this week's five links that are worth your time:
+
+1. This handbook will teach you Python for beginners through a series of helpful code examples. You'll 
+learn basic data structures, loops, and if-then logic. It also includes plenty of project-oriented learning 
+resources you can use to dive even deeper. (full handbook): 
+https://www.freecodecamp.org/news/python-code-examples-simple-python-program-example/
+
+2. freeCodeCamp just published this course to help you pass the Google Associate Cloud Engineer 
+certification exam. If you want to work as a DevOps or a SysAdmin, this cert may be worth your time. 
+You'll learn Cloud Engineering fundamentals, Virtual Private Cloud concepts, networking, Kubernetes, 
+and High Availability Computing. (20 hour YouTube course): 
+https://www.freecodecamp.org/news/google-cloud-digital-leader-certification-study-course-pass-the-
+exam-with-this-free-20-hour-course/
+
+3. React Router 6 just came out a few months ago, and freeCodeCamp has already published an in-depth 
+web development course teaching you how to use it. You'll learn about Page Components, Nested 
+Routes, NavLink Components, and more. (90 minute YouTube course): 
+https://www.freecodecamp.org/news/learn-react-router-6/
+
+4. Learn REST API design best practices. This comprehensive tutorial will teach you how to use 
+JavaScript, Node.js, and Express.js to build your own Workout-of-the-Day app. You'll learn about 3-Layer 
+Architecture, HTTP error codes, pagination, and how to format a JSON response. (2 hour read): 
+https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/
+
+5. Professor Kelleher has been teaching Data Visualization for over a decade at MIT and other 
+universities. He's an expert in the popular D3.js JavaScript library. freeCodeCamp just published the 
+latest version of his in-depth data viz course. He'll teach you how to use rendering logic, data 
+transformation, and dynamic charts through a variety of projects you can code along with from home. 
+(20 hour YouTube course): https://www.freecodecamp.org/news/data-visualizatoin-with-d3/
+
+If you are one of the 8,142 kind people who support our nonprofit with a monthly donation, thank you. 
+You are the reason we're able to keep all 83 of our servers running. And if you're reading this and are 
+not a donor yet, please support our mission. Every little bit helps: 
+https://www.freecodecamp.org/donate
+
+Quote of the Week: “Python is an experiment in how much freedom programmers need. Too much 
+freedom and nobody can read another's code; too little and expressiveness is endangered.” — Guido 
+van Rossum, Creator of the Python programming language
+
+Happy coding.
+
+- Quincy Larson
+
+Teacher at https://www.freecodecamp.org
+I share useful things on Twitter at https://www.twitter.com/ossia
+
+If these emails aren't worth your time, you can turn them off: 
+https://www.freecodecamp.org/ue/CpPqpq58DVx0pe4j2zlj

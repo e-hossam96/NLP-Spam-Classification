@@ -10,11 +10,11 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def hello_world():
+def interface():
     return render_template('index.html')
 
 
-@app.route("/", methods=['POST'])
+@app.route("/predict", methods=['POST', 'GET'])
 def predict_spam():
     # getting the message
     message_file = request.form['text']
@@ -59,9 +59,15 @@ def predict_spam():
     message_vector = text_to_count_vector(
         message, nltk_features, tokenizer, lemmatizer, stop_words, np)
     nltk_probas = nltk_model.predict_proba([message_vector])
-    nltk_result = nltk_probas[0][np.argmax(nltk_probas)]
+    nltk_result = nltk_probas[0][1]
 
-    return render_template('result.html', data=(tf_result[0][0] + nltk_result)/2)
+    # getting the total result
+    if (tf_result[0][0] + nltk_result)/2 >= 0.5:
+        result = f'Spam. NLTK: {nltk_result: .3f} - TensorFlow: {tf_result[0][0]: .3f}'
+    else:
+        result = f'Not Spam. NLTK: {nltk_result: .3f} - TensorFlow: {tf_result[0][0]: .3f}'
+
+    return render_template('index.html', data=result)
 
 
 if __name__ == '__main__':

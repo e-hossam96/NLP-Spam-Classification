@@ -6,8 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Spam Classification</title>
-
-  <!-- <link rel="stylesheet" href="style.css" /> -->
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
@@ -18,19 +16,21 @@
 
       <p>
         This is a multi-layer classifier that uses both <strong>NLTK</strong> and <strong>TensorFlow</strong>
-        processes to predict the type of your email. Just upload your email as a text file here and
+        processes to predict whether your email is spam or not. Just upload your email as a text file here and
         hit the <strong>Send File</strong> button.
       </p>
 
-      <form class="form" method="post" action="{{url_for('predict_spam')}}">
+      <form class="form" method="post" action="/predict">
         <div>
-          <label for="text-file">upload file</label>
+          <label for="text-file">Upload File</label>
           <input type="file" name="text" id="text-file" required accept=".txt" />
         </div>
 
-        <button>send file</button>
+        <button>Send File</button>
       </form>
+      <h2 align="center" <b>{{data}}</b></h2>
     </div>
+    <a href="https://github.com/E-Hossam96/NLP-Spam-Classification.git" target="_blank">GitHub Repository</a>
   </div>
 </body>
 

@@ -17,7 +17,10 @@ This section is found in the [nltk_processing](https://github.com/E-Hossam96/NLP
 #### Processing
 The work is pretty much easier here. First, I fitted the `Keras.preprocessing.text.Tokenizer` on the training dataset and then padded the sequences using the `keras.preprocessing.sequence.pad_sequences` to produce inputs with equal lengths.
 #### Modeling
-I have constructed a simple *DNN* and fitted the it on the data. The model achieved 99% accuracy on the validation datset.<br><br>
+I have constructed a simple *DNN* and fitted it on the data. The model achieved 99% accuracy on the validation datset.<br><br>
 This section is found in the [tensorflow_processing](https://github.com/E-Hossam96/NLP-Spam-Classification/blob/main/tensorflow_processing.ipynb) notebook.
 
 ## Models Deployment
+
+<img align="center" alt="webpage photo" src="https://user-images.githubusercontent.com/72099185/169238770-49232074-7b25-4a22-ad44-31104b8edd81.png" />
+

@@ -22,6 +22,8 @@ This section is found in the [tensorflow_processing](https://github.com/E-Hossam
 
 ## Models Deployment
 
+<br>
 <img align="center" alt="webpage photo" src="https://user-images.githubusercontent.com/72099185/169238770-49232074-7b25-4a22-ad44-31104b8edd81.png" />
 <br><br>
-Lastly, we used a simple webpage to deploy the models. We used the `flask` API to render the **HTML** webpage and provided the the [`insex.html`](https://github.com/E-Hossam96/NLP-Spam-Classification/blob/main/templates/index.html) with the data field result storing the results from the models and the probability for each model from the `predict_spam` *function* in the [app.py](https://github.com/E-Hossam96/NLP-Spam-Classification/blob/main/app.py) file. For the sake of better visualization, we used a **CSS** style file to produce the webpage in its final version as seen above.
+
+Lastly, we used a simple webpage to deploy the models. We used the `flask` API to render the **HTML** webpage and provided the the [index](https://github.com/E-Hossam96/NLP-Spam-Classification/blob/main/templates/index.html) file with the data field result storing the results from the models and the probability for each model from the `predict_spam` *function* in the [app](https://github.com/E-Hossam96/NLP-Spam-Classification/blob/main/app.py) file. For the sake of better visualization, we used a **CSS** style file to produce the webpage in its final version as seen below.

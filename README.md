@@ -1,4 +1,4 @@
-# NLP-Spam-Classification
+# NLP Spam Classification
 End to End NLP Pipeline for Spam Emails Classification
 
 ## Introduction
